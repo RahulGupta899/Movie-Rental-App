@@ -29,7 +29,7 @@ function InputBox(props){
                 <Link to="/new">New </Link> 
             </button>
             <input type="text" placeholder='Search...' value={searchText} onChange={handleSearchText} className=" mx-3 shadow appearance-none border border-black rounded  py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline w-48 " />
-            <input type="number" placeholder='Number of items...' value={numberOfItems} onChange={handleNumberOfItems} className=" mx-3 shadow appearance-none border border-black rounded  py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline w-48" />
+            <input type="number" placeholder='Items per page...' value={numberOfItems} onChange={handleNumberOfItems} className=" mx-3 shadow appearance-none border border-black rounded  py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline w-48" />
         </div>
     )
 }
